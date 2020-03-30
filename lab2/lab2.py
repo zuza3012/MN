@@ -2,8 +2,9 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-f = lambda x: 3 * x * x * x - 4 * x * x - 1
-
+#f = lambda x: 3 * x * x * x - 4 * x * x - 1 wyrazen lambda uzywa sie raz i ie nadaje im sie nazwy!
+def f(x):
+    return 3 * x * x * x - 4 * x * x - 1
 
 def set_range():
     while True:
