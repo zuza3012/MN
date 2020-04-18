@@ -1,3 +1,4 @@
+# program shows LU decomposition
 import numpy as np
 import scipy.linalg
 A = np.array([(9,8,-2,2,-2), (7,-3,-2,7,2), (2,-2,2,-7,6), (4,8,-3,3,-1), (2,2,-1,1,4)])
